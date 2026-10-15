@@ -1,5 +1,5 @@
 import store from "./store";
-import { bugAdded, bugResolved } from "./actionsTypes";
+import { bugAdded, bugResolved } from "./actionsCreators";
 
 // do this in the UI-Layer, when a state change
 // const unsubscribe = store.subscribe(() => {
